@@ -1,0 +1,1229 @@
+{
+  "issues": [
+    {
+      "title": "Setup React TypeScript project structure",
+      "description": "## Description\nInitialize a React TypeScript project with Vite for the power distribution payment system frontend. Include proper folder structure for components, pages, services, and utilities.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Setup React TypeScript project structure**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `package.json`\n- `tsconfig.json`\n- `vite.config.ts`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm create vite@latest . -- --template react-ts\nnpm install\nnpm install @types/react @types/react-dom\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "package.json",
+        "tsconfig.json",
+        "vite.config.ts"
+      ],
+      "commands_to_run": [
+        "npm create vite@latest . -- --template react-ts",
+        "npm install",
+        "npm install @types/react @types/react-dom"
+      ],
+      "priority": "high",
+      "labels": [
+        "setup",
+        "infrastructure"
+      ]
+    },
+    {
+      "title": "Install Stellar SDK for blockchain integration",
+      "description": "## Description\nInstall and configure Stellar SDK for interacting with the Stellar blockchain network for payment processing.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Install Stellar SDK for blockchain integration**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `package.json`\n- `src/services/stellar.ts`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install @stellar/stellar-sdk\nnpm install @types/node\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "package.json",
+        "src/services/stellar.ts"
+      ],
+      "commands_to_run": [
+        "npm install @stellar/stellar-sdk",
+        "npm install @types/node"
+      ],
+      "priority": "high",
+      "labels": [
+        "stellar",
+        "blockchain",
+        "integration"
+      ]
+    },
+    {
+      "title": "Configure routing with React Router",
+      "description": "## Description\nSet up React Router for navigation between different pages of the power distribution system (dashboard, payments, billing, etc.).\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Configure routing with React Router**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/App.tsx`\n- `src/main.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install react-router-dom @types/react-router-dom\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/App.tsx",
+        "src/main.tsx"
+      ],
+      "commands_to_run": [
+        "npm install react-router-dom @types/react-router-dom"
+      ],
+      "priority": "high",
+      "labels": [
+        "routing",
+        "navigation"
+      ]
+    },
+    {
+      "title": "Create responsive layout with sidebar navigation",
+      "description": "## Description\nDesign and implement a responsive layout with sidebar navigation for the power distribution management interface.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create responsive layout with sidebar navigation**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Layout.tsx`\n- `src/components/Sidebar.tsx`\n- `src/styles/layout.css`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Layout.tsx",
+        "src/components/Sidebar.tsx",
+        "src/styles/layout.css"
+      ],
+      "commands_to_run": [],
+      "priority": "high",
+      "labels": [
+        "ui",
+        "layout",
+        "responsive"
+      ]
+    },
+    {
+      "title": "Implement user authentication system",
+      "description": "## Description\nCreate authentication system for users to log in and manage their power distribution accounts using Stellar wallet integration.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement user authentication system**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/auth.ts`\n- `src/components/Login.tsx`\n- `src/components/ProtectedRoute.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install @stellar/wallet-sdk\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/auth.ts",
+        "src/components/Login.tsx",
+        "src/components/ProtectedRoute.tsx"
+      ],
+      "commands_to_run": [
+        "npm install @stellar/wallet-sdk"
+      ],
+      "priority": "high",
+      "labels": [
+        "authentication",
+        "security",
+        "stellar"
+      ]
+    },
+    {
+      "title": "Build dashboard overview page",
+      "description": "## Description\nCreate main dashboard showing power consumption metrics, payment history, and account balance overview.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build dashboard overview page**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/pages/Dashboard.tsx`\n- `src/components/Dashboard/MetricsCard.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/pages/Dashboard.tsx",
+        "src/components/Dashboard/MetricsCard.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "dashboard",
+        "ui",
+        "metrics"
+      ]
+    },
+    {
+      "title": "Implement Stellar wallet connection",
+      "description": "## Description\nCreate wallet connection interface allowing users to connect their Stellar wallets for payment processing.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement Stellar wallet connection**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/wallet.ts`\n- `src/components/WalletConnect.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/wallet.ts",
+        "src/components/WalletConnect.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "high",
+      "labels": [
+        "stellar",
+        "wallet",
+        "integration"
+      ]
+    },
+    {
+      "title": "Create payment processing component",
+      "description": "## Description\nBuild payment processing interface for handling power bill payments through Stellar blockchain.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create payment processing component**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Payment/PaymentForm.tsx`\n- `src/services/payment.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Payment/PaymentForm.tsx",
+        "src/services/payment.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "high",
+      "labels": [
+        "payment",
+        "stellar",
+        "blockchain"
+      ]
+    },
+    {
+      "title": "Implement transaction history page",
+      "description": "## Description\nCreate page to display all payment transactions with details like amount, date, status, and Stellar transaction hash.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement transaction history page**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/pages/TransactionHistory.tsx`\n- `src/components/Transaction/TransactionList.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/pages/TransactionHistory.tsx",
+        "src/components/Transaction/TransactionList.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "transactions",
+        "history",
+        "ui"
+      ]
+    },
+    {
+      "title": "Build customer management interface",
+      "description": "## Description\nCreate interface for managing customer accounts, including registration, profile management, and account status.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build customer management interface**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/pages/Customers.tsx`\n- `src/components/Customer/CustomerForm.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/pages/Customers.tsx",
+        "src/components/Customer/CustomerForm.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "customers",
+        "management",
+        "crud"
+      ]
+    },
+    {
+      "title": "Implement power consumption tracking",
+      "description": "## Description\nCreate system to track and display power consumption data with charts and analytics.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement power consumption tracking**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Analytics/ConsumptionChart.tsx`\n- `src/services/analytics.ts`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install recharts\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Analytics/ConsumptionChart.tsx",
+        "src/services/analytics.ts"
+      ],
+      "commands_to_run": [
+        "npm install recharts"
+      ],
+      "priority": "medium",
+      "labels": [
+        "analytics",
+        "charts",
+        "consumption"
+      ]
+    },
+    {
+      "title": "Create billing plan management",
+      "description": "## Description\nBuild interface for creating and managing different billing plans for power distribution services.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create billing plan management**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/pages/BillingPlans.tsx`\n- `src/components/Billing/PlanForm.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/pages/BillingPlans.tsx",
+        "src/components/Billing/PlanForm.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "billing",
+        "plans",
+        "management"
+      ]
+    },
+    {
+      "title": "Implement automated payment scheduling",
+      "description": "## Description\nCreate system for scheduling recurring payments for power bills using Stellar smart contracts.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement automated payment scheduling**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/scheduler.ts`\n- `src/components/Payment/ScheduledPayments.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/scheduler.ts",
+        "src/components/Payment/ScheduledPayments.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "automation",
+        "payments",
+        "scheduling"
+      ]
+    },
+    {
+      "title": "Build notification system",
+      "description": "## Description\nImplement notification system for payment reminders, transaction confirmations, and account alerts.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build notification system**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/notifications.ts`\n- `src/components/Notifications/NotificationPanel.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/notifications.ts",
+        "src/components/Notifications/NotificationPanel.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "notifications",
+        "alerts",
+        "ui"
+      ]
+    },
+    {
+      "title": "Create admin dashboard",
+      "description": "## Description\nBuild admin dashboard for system administrators to monitor overall system health and manage all users.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create admin dashboard**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/pages/Admin/Dashboard.tsx`\n- `src/components/Admin/SystemMetrics.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/pages/Admin/Dashboard.tsx",
+        "src/components/Admin/SystemMetrics.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "admin",
+        "dashboard",
+        "management"
+      ]
+    },
+    {
+      "title": "Implement API client for backend integration",
+      "description": "## Description\nCreate API client service to communicate with backend services for data persistence and business logic.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement API client for backend integration**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/api.ts`\n- `src/types/api.ts`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install axios\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/api.ts",
+        "src/types/api.ts"
+      ],
+      "commands_to_run": [
+        "npm install axios"
+      ],
+      "priority": "high",
+      "labels": [
+        "api",
+        "backend",
+        "integration"
+      ]
+    },
+    {
+      "title": "Add form validation with error handling",
+      "description": "## Description\nImplement comprehensive form validation and error handling for all user input forms.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Add form validation with error handling**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/hooks/useFormValidation.ts`\n- `src/components/Forms/ValidatedInput.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install yup @hookform/resolvers react-hook-form\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/hooks/useFormValidation.ts",
+        "src/components/Forms/ValidatedInput.tsx"
+      ],
+      "commands_to_run": [
+        "npm install yup @hookform/resolvers react-hook-form"
+      ],
+      "priority": "medium",
+      "labels": [
+        "validation",
+        "forms",
+        "error-handling"
+      ]
+    },
+    {
+      "title": "Create loading states and spinners",
+      "description": "## Description\nImplement loading states and spinner components for better user experience during async operations.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create loading states and spinners**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/UI/Spinner.tsx`\n- `src/components/UI/LoadingState.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/UI/Spinner.tsx",
+        "src/components/UI/LoadingState.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "ui",
+        "loading",
+        "ux"
+      ]
+    },
+    {
+      "title": "Implement error boundaries",
+      "description": "## Description\nAdd React error boundaries to gracefully handle and display errors throughout the application.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement error boundaries**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/ErrorBoundary.tsx`\n- `src/pages/ErrorPage.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/ErrorBoundary.tsx",
+        "src/pages/ErrorPage.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "error-handling",
+        "react",
+        "reliability"
+      ]
+    },
+    {
+      "title": "Add dark mode support",
+      "description": "## Description\nImplement dark mode toggle and ensure all components support both light and dark themes.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Add dark mode support**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/hooks/useTheme.ts`\n- `src/styles/themes.css`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/hooks/useTheme.ts",
+        "src/styles/themes.css"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "theme",
+        "dark-mode",
+        "ui"
+      ]
+    },
+    {
+      "title": "Create responsive mobile design",
+      "description": "## Description\nEnsure the entire application is fully responsive and works seamlessly on mobile devices.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create responsive mobile design**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/styles/responsive.css`\n- `src/components/Layout/MobileMenu.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/styles/responsive.css",
+        "src/components/Layout/MobileMenu.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "mobile",
+        "responsive",
+        "ui"
+      ]
+    },
+    {
+      "title": "Implement data persistence with localStorage",
+      "description": "## Description\nAdd localStorage integration for persisting user preferences and session data.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement data persistence with localStorage**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/storage.ts`\n- `src/hooks/useLocalStorage.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/storage.ts",
+        "src/hooks/useLocalStorage.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "storage",
+        "persistence",
+        "local-storage"
+      ]
+    },
+    {
+      "title": "Build export functionality for reports",
+      "description": "## Description\nCreate functionality to export transaction history and consumption data to CSV/PDF formats.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build export functionality for reports**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/export.ts`\n- `src/components/Export/ExportButton.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install jspdf papaparse\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/export.ts",
+        "src/components/Export/ExportButton.tsx"
+      ],
+      "commands_to_run": [
+        "npm install jspdf papaparse"
+      ],
+      "priority": "low",
+      "labels": [
+        "export",
+        "reports",
+        "data"
+      ]
+    },
+    {
+      "title": "Implement real-time updates with WebSocket",
+      "description": "## Description\nAdd WebSocket integration for real-time updates on transaction status and power consumption.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement real-time updates with WebSocket**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/websocket.ts`\n- `src/hooks/useWebSocket.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/websocket.ts",
+        "src/hooks/useWebSocket.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "websocket",
+        "real-time",
+        "updates"
+      ]
+    },
+    {
+      "title": "Create comprehensive unit tests",
+      "description": "## Description\nWrite unit tests for all components, services, and utility functions using Jest and React Testing Library.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create comprehensive unit tests**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `jest.config.js`\n- `src/**/*.test.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install --save-dev jest @testing-library/react @testing-library/jest-dom\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "jest.config.js",
+        "src/**/*.test.tsx"
+      ],
+      "commands_to_run": [
+        "npm install --save-dev jest @testing-library/react @testing-library/jest-dom"
+      ],
+      "priority": "medium",
+      "labels": [
+        "testing",
+        "unit-tests",
+        "quality"
+      ]
+    },
+    {
+      "title": "Add end-to-end testing with Cypress",
+      "description": "## Description\nImplement E2E tests for critical user flows like payment processing and authentication.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Add end-to-end testing with Cypress**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `cypress.config.ts`\n- `cypress/e2e/**/*.cy.ts`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install --save-dev cypress\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "cypress.config.ts",
+        "cypress/e2e/**/*.cy.ts"
+      ],
+      "commands_to_run": [
+        "npm install --save-dev cypress"
+      ],
+      "priority": "low",
+      "labels": [
+        "testing",
+        "e2e",
+        "cypress"
+      ]
+    },
+    {
+      "title": "Implement rate limiting for API calls",
+      "description": "## Description\nAdd rate limiting to prevent abuse of API endpoints and ensure fair usage.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement rate limiting for API calls**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/rateLimiter.ts`\n- `src/utils/apiHelpers.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/rateLimiter.ts",
+        "src/utils/apiHelpers.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "security",
+        "rate-limiting",
+        "api"
+      ]
+    },
+    {
+      "title": "Create audit logging system",
+      "description": "## Description\nImplement comprehensive audit logging for all user actions and system events.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create audit logging system**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/auditLogger.ts`\n- `src/types/audit.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/auditLogger.ts",
+        "src/types/audit.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "audit",
+        "logging",
+        "security"
+      ]
+    },
+    {
+      "title": "Build customer support chat interface",
+      "description": "## Description\nCreate integrated customer support chat for users to get help with payments and account issues.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build customer support chat interface**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Support/ChatWidget.tsx`\n- `src/services/chatService.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Support/ChatWidget.tsx",
+        "src/services/chatService.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "support",
+        "chat",
+        "customer-service"
+      ]
+    },
+    {
+      "title": "Implement multi-language support (i18n)",
+      "description": "## Description\nAdd internationalization support for multiple languages in the power distribution system.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement multi-language support (i18n)**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/i18n/index.ts`\n- `src/locales/en.json`\n- `src/locales/es.json`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install react-i18next i18next\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/i18n/index.ts",
+        "src/locales/en.json",
+        "src/locales/es.json"
+      ],
+      "commands_to_run": [
+        "npm install react-i18next i18next"
+      ],
+      "priority": "low",
+      "labels": [
+        "i18n",
+        "localization",
+        "multi-language"
+      ]
+    },
+    {
+      "title": "Create advanced search and filtering",
+      "description": "## Description\nImplement advanced search and filtering capabilities for transactions, customers, and reports.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create advanced search and filtering**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Search/AdvancedSearch.tsx`\n- `src/hooks/useSearch.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Search/AdvancedSearch.tsx",
+        "src/hooks/useSearch.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "search",
+        "filtering",
+        "ux"
+      ]
+    },
+    {
+      "title": "Build analytics dashboard with charts",
+      "description": "## Description\nCreate comprehensive analytics dashboard with various charts showing power usage trends and payment patterns.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build analytics dashboard with charts**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/pages/Analytics.tsx`\n- `src/components/Charts/**/*.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install d3 @types/d3\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/pages/Analytics.tsx",
+        "src/components/Charts/**/*.tsx"
+      ],
+      "commands_to_run": [
+        "npm install d3 @types/d3"
+      ],
+      "priority": "medium",
+      "labels": [
+        "analytics",
+        "charts",
+        "visualization"
+      ]
+    },
+    {
+      "title": "Implement backup and restore functionality",
+      "description": "## Description\nAdd functionality for users to backup and restore their account data and settings.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement backup and restore functionality**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/backup.ts`\n- `src/components/Settings/BackupRestore.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/backup.ts",
+        "src/components/Settings/BackupRestore.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "backup",
+        "restore",
+        "data-management"
+      ]
+    },
+    {
+      "title": "Create API documentation with Swagger",
+      "description": "## Description\nGenerate comprehensive API documentation for frontend-backend integration.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create API documentation with Swagger**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `docs/api.md`\n- `swagger.yaml`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "docs/api.md",
+        "swagger.yaml"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "documentation",
+        "api",
+        "swagger"
+      ]
+    },
+    {
+      "title": "Implement progressive web app features",
+      "description": "## Description\nConvert the application to a PWA with offline capabilities and app-like experience.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement progressive web app features**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `public/manifest.json`\n- `src/serviceWorker.ts`\n- `vite.config.ts`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install vite-plugin-pwa workbox-window\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "public/manifest.json",
+        "src/serviceWorker.ts",
+        "vite.config.ts"
+      ],
+      "commands_to_run": [
+        "npm install vite-plugin-pwa workbox-window"
+      ],
+      "priority": "low",
+      "labels": [
+        "pwa",
+        "offline",
+        "mobile"
+      ]
+    },
+    {
+      "title": "Add performance monitoring",
+      "description": "## Description\nImplement performance monitoring to track application speed and user experience metrics.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Add performance monitoring**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/performance.ts`\n- `src/hooks/usePerformance.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/performance.ts",
+        "src/hooks/usePerformance.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "performance",
+        "monitoring",
+        "optimization"
+      ]
+    },
+    {
+      "title": "Create role-based access control",
+      "description": "## Description\nImplement RBAC system with different permission levels for admins, operators, and customers.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create role-based access control**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/rbac.ts`\n- `src/components/Auth/PermissionGate.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/rbac.ts",
+        "src/components/Auth/PermissionGate.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "high",
+      "labels": [
+        "security",
+        "rbac",
+        "permissions"
+      ]
+    },
+    {
+      "title": "Build payment reconciliation system",
+      "description": "## Description\nCreate system to reconcile payments between Stellar blockchain and internal billing records.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build payment reconciliation system**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/reconciliation.ts`\n- `src/components/Reconciliation/ReconciliationReport.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/reconciliation.ts",
+        "src/components/Reconciliation/ReconciliationReport.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "reconciliation",
+        "payments",
+        "accounting"
+      ]
+    },
+    {
+      "title": "Implement smart contract interaction",
+      "description": "## Description\nAdd functionality to interact with Stellar smart contracts for automated payment processing.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement smart contract interaction**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/smartContracts.ts`\n- `src/components/SmartContracts/ContractInterface.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/smartContracts.ts",
+        "src/components/SmartContracts/ContractInterface.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "high",
+      "labels": [
+        "smart-contracts",
+        "stellar",
+        "blockchain"
+      ]
+    },
+    {
+      "title": "Create customer onboarding flow",
+      "description": "## Description\nDesign and implement step-by-step onboarding flow for new customers joining the power distribution system.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create customer onboarding flow**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Onboarding/OnboardingFlow.tsx`\n- `src/pages/Onboarding.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Onboarding/OnboardingFlow.tsx",
+        "src/pages/Onboarding.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "onboarding",
+        "user-experience",
+        "customers"
+      ]
+    },
+    {
+      "title": "Build invoice generation system",
+      "description": "## Description\nCreate automated invoice generation for power bills with customizable templates.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build invoice generation system**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/invoiceGenerator.ts`\n- `src/components/Invoice/InvoicePreview.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install html2canvas jspdf\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/invoiceGenerator.ts",
+        "src/components/Invoice/InvoicePreview.tsx"
+      ],
+      "commands_to_run": [
+        "npm install html2canvas jspdf"
+      ],
+      "priority": "medium",
+      "labels": [
+        "invoices",
+        "billing",
+        "automation"
+      ]
+    },
+    {
+      "title": "Implement data visualization for power grid",
+      "description": "## Description\nCreate interactive visualizations showing power grid status and distribution patterns.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement data visualization for power grid**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Grid/GridVisualization.tsx`\n- `src/services/gridService.ts`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install leaflet react-leaflet @types/leaflet\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Grid/GridVisualization.tsx",
+        "src/services/gridService.ts"
+      ],
+      "commands_to_run": [
+        "npm install leaflet react-leaflet @types/leaflet"
+      ],
+      "priority": "medium",
+      "labels": [
+        "visualization",
+        "grid",
+        "mapping"
+      ]
+    },
+    {
+      "title": "Create automated testing pipeline",
+      "description": "## Description\nSet up CI/CD pipeline with automated testing for continuous integration and deployment.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create automated testing pipeline**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `.github/workflows/ci.yml`\n- `.github/workflows/deploy.yml`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/deploy.yml"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "ci-cd",
+        "automation",
+        "testing"
+      ]
+    },
+    {
+      "title": "Implement caching strategy",
+      "description": "## Description\nAdd intelligent caching for API responses and frequently accessed data to improve performance.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement caching strategy**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/cache.ts`\n- `src/hooks/useCache.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/cache.ts",
+        "src/hooks/useCache.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "caching",
+        "performance",
+        "optimization"
+      ]
+    },
+    {
+      "title": "Build customer feedback system",
+      "description": "## Description\nCreate system for collecting and managing customer feedback and ratings.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build customer feedback system**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Feedback/FeedbackForm.tsx`\n- `src/services/feedbackService.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Feedback/FeedbackForm.tsx",
+        "src/services/feedbackService.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "feedback",
+        "customer-service",
+        "ratings"
+      ]
+    },
+    {
+      "title": "Implement disaster recovery procedures",
+      "description": "## Description\nCreate disaster recovery procedures and failover mechanisms for critical payment operations.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement disaster recovery procedures**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/disasterRecovery.ts`\n- `docs/disaster-recovery.md`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/disasterRecovery.ts",
+        "docs/disaster-recovery.md"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "disaster-recovery",
+        "reliability",
+        "backup"
+      ]
+    },
+    {
+      "title": "Create API rate limiting dashboard",
+      "description": "## Description\nBuild admin dashboard to monitor and manage API rate limits and usage patterns.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create API rate limiting dashboard**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/pages/Admin/RateLimiting.tsx`\n- `src/components/Admin/RateLimitChart.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/pages/Admin/RateLimiting.tsx",
+        "src/components/Admin/RateLimitChart.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "admin",
+        "rate-limiting",
+        "monitoring"
+      ]
+    },
+    {
+      "title": "Implement payment dispute resolution",
+      "description": "## Description\nCreate system for handling and resolving payment disputes between customers and the power company.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement payment dispute resolution**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Disputes/DisputeForm.tsx`\n- `src/services/disputeService.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Disputes/DisputeForm.tsx",
+        "src/services/disputeService.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "disputes",
+        "payments",
+        "resolution"
+      ]
+    },
+    {
+      "title": "Build customer segmentation tools",
+      "description": "## Description\nCreate tools to segment customers based on usage patterns, payment history, and other criteria.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build customer segmentation tools**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Segmentation/CustomerSegments.tsx`\n- `src/services/segmentationService.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Segmentation/CustomerSegments.tsx",
+        "src/services/segmentationService.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "segmentation",
+        "analytics",
+        "marketing"
+      ]
+    },
+    {
+      "title": "Implement predictive analytics for usage",
+      "description": "## Description\nAdd machine learning capabilities to predict power usage patterns and optimize billing.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement predictive analytics for usage**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/predictiveAnalytics.ts`\n- `src/components/Prediction/UsageForecast.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install tensorflow @tensorflow/tfjs\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/predictiveAnalytics.ts",
+        "src/components/Prediction/UsageForecast.tsx"
+      ],
+      "commands_to_run": [
+        "npm install tensorflow @tensorflow/tfjs"
+      ],
+      "priority": "low",
+      "labels": [
+        "ml",
+        "analytics",
+        "prediction"
+      ]
+    },
+    {
+      "title": "Create compliance reporting system",
+      "description": "## Description\nBuild system to generate regulatory compliance reports for energy authorities.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create compliance reporting system**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Compliance/ComplianceReports.tsx`\n- `src/services/complianceService.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Compliance/ComplianceReports.tsx",
+        "src/services/complianceService.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "compliance",
+        "reporting",
+        "regulatory"
+      ]
+    },
+    {
+      "title": "Implement multi-tenant architecture",
+      "description": "## Description\nDesign the frontend to support multiple power distribution companies as separate tenants.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement multi-tenant architecture**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/tenantService.ts`\n- `src/components/Tenant/TenantSwitcher.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/tenantService.ts",
+        "src/components/Tenant/TenantSwitcher.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "multi-tenant",
+        "architecture",
+        "scalability"
+      ]
+    },
+    {
+      "title": "Build real-time alert system",
+      "description": "## Description\nCreate comprehensive alert system for power outages, payment failures, and system issues.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build real-time alert system**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Alerts/AlertSystem.tsx`\n- `src/services/alertService.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Alerts/AlertSystem.tsx",
+        "src/services/alertService.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "high",
+      "labels": [
+        "alerts",
+        "real-time",
+        "notifications"
+      ]
+    },
+    {
+      "title": "Implement customer self-service portal",
+      "description": "## Description\nCreate comprehensive self-service portal for customers to manage their accounts without support.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement customer self-service portal**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/pages/CustomerPortal.tsx`\n- `src/components/Portal/SelfServiceTools.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/pages/CustomerPortal.tsx",
+        "src/components/Portal/SelfServiceTools.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "self-service",
+        "customer-portal",
+        "automation"
+      ]
+    },
+    {
+      "title": "Create payment method management",
+      "description": "## Description\nBuild interface for customers to manage multiple payment methods and set default options.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create payment method management**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Payment/PaymentMethods.tsx`\n- `src/services/paymentMethodService.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Payment/PaymentMethods.tsx",
+        "src/services/paymentMethodService.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "payment-methods",
+        "wallet",
+        "management"
+      ]
+    },
+    {
+      "title": "Implement automated testing for Stellar integration",
+      "description": "## Description\nCreate comprehensive tests specifically for Stellar blockchain integration and payment flows.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement automated testing for Stellar integration**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/tests/stellar/integration.test.ts`\n- `src/tests/stellar/payment.test.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/tests/stellar/integration.test.ts",
+        "src/tests/stellar/payment.test.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "high",
+      "labels": [
+        "testing",
+        "stellar",
+        "blockchain"
+      ]
+    },
+    {
+      "title": "Build energy efficiency recommendations",
+      "description": "## Description\nCreate system to analyze usage patterns and provide energy efficiency recommendations to customers.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build energy efficiency recommendations**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Efficiency/EfficiencyTips.tsx`\n- `src/services/efficiencyService.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Efficiency/EfficiencyTips.tsx",
+        "src/services/efficiencyService.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "efficiency",
+        "recommendations",
+        "analytics"
+      ]
+    },
+    {
+      "title": "Implement payment gateway integration",
+      "description": "## Description\nIntegrate additional payment gateways beyond Stellar for customers who prefer traditional payment methods.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement payment gateway integration**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/paymentGateways.ts`\n- `src/components/Payment/GatewaySelector.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install stripe @stripe/stripe-js\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/paymentGateways.ts",
+        "src/components/Payment/GatewaySelector.tsx"
+      ],
+      "commands_to_run": [
+        "npm install stripe @stripe/stripe-js"
+      ],
+      "priority": "medium",
+      "labels": [
+        "payment-gateways",
+        "integration",
+        "stripe"
+      ]
+    },
+    {
+      "title": "Create customer loyalty program",
+      "description": "## Description\nBuild loyalty program system with rewards for consistent payments and energy conservation.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create customer loyalty program**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Loyalty/LoyaltyProgram.tsx`\n- `src/services/loyaltyService.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Loyalty/LoyaltyProgram.tsx",
+        "src/services/loyaltyService.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "loyalty",
+        "rewards",
+        "gamification"
+      ]
+    },
+    {
+      "title": "Implement advanced security features",
+      "description": "## Description\nAdd advanced security features including 2FA, session management, and security audit logs.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement advanced security features**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/security.ts`\n- `src/components/Auth/TwoFactorAuth.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install qrcode @types/qrcode\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/security.ts",
+        "src/components/Auth/TwoFactorAuth.tsx"
+      ],
+      "commands_to_run": [
+        "npm install qrcode @types/qrcode"
+      ],
+      "priority": "high",
+      "labels": [
+        "security",
+        "2fa",
+        "authentication"
+      ]
+    },
+    {
+      "title": "Build mobile app companion",
+      "description": "## Description\nCreate React Native companion app for mobile devices with full feature parity.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build mobile app companion**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `mobile/`\n- `src/shared/`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpx react-native init PowerDistributionMobile\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "mobile/",
+        "src/shared/"
+      ],
+      "commands_to_run": [
+        "npx react-native init PowerDistributionMobile"
+      ],
+      "priority": "low",
+      "labels": [
+        "mobile",
+        "react-native",
+        "app"
+      ]
+    },
+    {
+      "title": "Implement data analytics dashboard",
+      "description": "## Description\nCreate comprehensive analytics dashboard for business intelligence and decision making.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement data analytics dashboard**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/pages/Analytics/BI.tsx`\n- `src/components/Analytics/BIDashboard.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install plotly.js react-plotly.js @types/plotly.js\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/pages/Analytics/BI.tsx",
+        "src/components/Analytics/BIDashboard.tsx"
+      ],
+      "commands_to_run": [
+        "npm install plotly.js react-plotly.js @types/plotly.js"
+      ],
+      "priority": "medium",
+      "labels": [
+        "analytics",
+        "business-intelligence",
+        "dashboard"
+      ]
+    },
+    {
+      "title": "Create automated customer communication",
+      "description": "## Description\nBuild system for automated email/SMS communications for billing, payments, and service updates.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create automated customer communication**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/communication.ts`\n- `src/components/Communication/Templates.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/communication.ts",
+        "src/components/Communication/Templates.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "communication",
+        "automation",
+        "notifications"
+      ]
+    },
+    {
+      "title": "Implement performance optimization",
+      "description": "## Description\nOptimize application performance through code splitting, lazy loading, and bundle optimization.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement performance optimization**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `vite.config.ts`\n- `src/utils/performance.ts`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install @vitejs/plugin-react-swc\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "vite.config.ts",
+        "src/utils/performance.ts"
+      ],
+      "commands_to_run": [
+        "npm install @vitejs/plugin-react-swc"
+      ],
+      "priority": "medium",
+      "labels": [
+        "performance",
+        "optimization",
+        "bundle"
+      ]
+    },
+    {
+      "title": "Build comprehensive documentation",
+      "description": "## Description\nCreate comprehensive documentation including user guides, API docs, and developer documentation.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build comprehensive documentation**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `docs/`\n- `README.md`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "docs/",
+        "README.md"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "documentation",
+        "guides",
+        "api-docs"
+      ]
+    },
+    {
+      "title": "Implement accessibility features",
+      "description": "## Description\nEnsure the application meets WCAG 2.1 AA standards for accessibility compliance.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement accessibility features**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Accessibility/AccessibilityPanel.tsx`\n- `src/utils/accessibility.ts`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install axe-core @axe-core/react\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Accessibility/AccessibilityPanel.tsx",
+        "src/utils/accessibility.ts"
+      ],
+      "commands_to_run": [
+        "npm install axe-core @axe-core/react"
+      ],
+      "priority": "medium",
+      "labels": [
+        "accessibility",
+        "wcag",
+        "compliance"
+      ]
+    },
+    {
+      "title": "Create deployment automation",
+      "description": "## Description\nSet up automated deployment to staging and production environments with rollback capabilities.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create deployment automation**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `.github/workflows/deploy.yml`\n- `docker/Dockerfile`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        ".github/workflows/deploy.yml",
+        "docker/Dockerfile"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "deployment",
+        "automation",
+        "docker"
+      ]
+    },
+    {
+      "title": "Implement monitoring and alerting",
+      "description": "## Description\nAdd comprehensive application monitoring with error tracking and performance metrics.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement monitoring and alerting**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/monitoring.ts`\n- `src/components/Admin/MonitoringDashboard.tsx`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install @sentry/react\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/monitoring.ts",
+        "src/components/Admin/MonitoringDashboard.tsx"
+      ],
+      "commands_to_run": [
+        "npm install @sentry/react"
+      ],
+      "priority": "high",
+      "labels": [
+        "monitoring",
+        "error-tracking",
+        "sentry"
+      ]
+    },
+    {
+      "title": "Build customer migration tools",
+      "description": "## Description\nCreate tools for migrating customer data from legacy systems to the new Stellar-based platform.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build customer migration tools**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/migration.ts`\n- `src/components/Admin/MigrationTool.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/migration.ts",
+        "src/components/Admin/MigrationTool.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "migration",
+        "data-transfer",
+        "legacy"
+      ]
+    },
+    {
+      "title": "Implement advanced search with filters",
+      "description": "## Description\nAdd advanced search functionality with multiple filters, sorting, and faceted search capabilities.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement advanced search with filters**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/components/Search/AdvancedSearch.tsx`\n- `src/hooks/useAdvancedSearch.ts`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/components/Search/AdvancedSearch.tsx",
+        "src/hooks/useAdvancedSearch.ts"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "search",
+        "filters",
+        "ux"
+      ]
+    },
+    {
+      "title": "Create custom theme system",
+      "description": "## Description\nImplement customizable theme system allowing companies to brand the application with their colors and logos.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create custom theme system**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/themeService.ts`\n- `src/components/Theme/ThemeCustomizer.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/themeService.ts",
+        "src/components/Theme/ThemeCustomizer.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "theming",
+        "branding",
+        "customization"
+      ]
+    },
+    {
+      "title": "Build integration marketplace",
+      "description": "## Description\nCreate marketplace for third-party integrations like smart home devices and energy management systems.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build integration marketplace**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/pages/Marketplace.tsx`\n- `src/components/Marketplace/IntegrationCard.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/pages/Marketplace.tsx",
+        "src/components/Marketplace/IntegrationCard.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "marketplace",
+        "integrations",
+        "third-party"
+      ]
+    },
+    {
+      "title": "Implement AI-powered customer support",
+      "description": "## Description\nAdd AI-powered chatbot for customer support using natural language processing.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement AI-powered customer support**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/aiSupport.ts`\n- `src/components/Support/AIChatbot.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/aiSupport.ts",
+        "src/components/Support/AIChatbot.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "ai",
+        "chatbot",
+        "support"
+      ]
+    },
+    {
+      "title": "Create comprehensive testing suite",
+      "description": "## Description\nBuild comprehensive testing suite including unit, integration, and E2E tests with high code coverage.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create comprehensive testing suite**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `jest.config.js`\n- `cypress.config.ts`\n- `src/tests/`\n\n## Commands to Run\nYou may need to run the following commands to set up dependencies or tools:\n```bash\nnpm install --save-dev @testing-library/user-event\n```\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "jest.config.js",
+        "cypress.config.ts",
+        "src/tests/"
+      ],
+      "commands_to_run": [
+        "npm install --save-dev @testing-library/user-event"
+      ],
+      "priority": "medium",
+      "labels": [
+        "testing",
+        "coverage",
+        "quality"
+      ]
+    },
+    {
+      "title": "Implement blockchain analytics",
+      "description": "## Description\nAdd analytics specifically for Stellar blockchain transactions and network health monitoring.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement blockchain analytics**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/blockchainAnalytics.ts`\n- `src/components/Analytics/BlockchainMetrics.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/blockchainAnalytics.ts",
+        "src/components/Analytics/BlockchainMetrics.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "blockchain",
+        "analytics",
+        "stellar"
+      ]
+    },
+    {
+      "title": "Build disaster recovery testing",
+      "description": "## Description\nCreate automated testing for disaster recovery scenarios and failover procedures.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Build disaster recovery testing**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/tests/disasterRecovery.test.ts`\n- `docs/disaster-recovery-testing.md`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/tests/disasterRecovery.test.ts",
+        "docs/disaster-recovery-testing.md"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "disaster-recovery",
+        "testing",
+        "reliability"
+      ]
+    },
+    {
+      "title": "Implement customer journey analytics",
+      "description": "## Description\nTrack and analyze customer journeys through the application to optimize user experience.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Implement customer journey analytics**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/journeyAnalytics.ts`\n- `src/components/Analytics/JourneyMap.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/journeyAnalytics.ts",
+        "src/components/Analytics/JourneyMap.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "low",
+      "labels": [
+        "analytics",
+        "user-journey",
+        "ux"
+      ]
+    },
+    {
+      "title": "Create performance benchmarking",
+      "description": "## Description\nImplement performance benchmarking tools to track application performance over time.\n\n## Proposed Changes\n- Implement the feature or fix as described in: **Create performance benchmarking**.\n- Review the existing codebase for context and ensure the architecture remains consistent.\n- Add necessary UI components, services, or utilities as required by the task.\n\n## Files to Edit\nYou will likely need to edit or create the following files:\n- `src/services/benchmarking.ts`\n- `src/components/Admin/PerformanceBenchmarks.tsx`\n\n## Acceptance Criteria & Help for Contributors\n- [ ] The requested changes are fully implemented.\n- [ ] The code compiles and builds without errors (`npm run build` or similar).\n- [ ] Any new UI is responsive and follows good design practices.\n- [ ] Code should be clean, modular, and well-documented with inline comments where helpful.\n- 💡 **Tip for Contributors**: If you're stuck, use the project search tools to find similar implementations, or drop a comment here asking for clarification!\n",
+      "files_to_edit": [
+        "src/services/benchmarking.ts",
+        "src/components/Admin/PerformanceBenchmarks.tsx"
+      ],
+      "commands_to_run": [],
+      "priority": "medium",
+      "labels": [
+        "performance",
+        "benchmarking",
+        "monitoring"
+      ]
+    }
+  ]
+}
